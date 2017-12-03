@@ -34,9 +34,9 @@ def predict_tech(tech_name, owner):
     return prob
 
 if __name__ == '__main__':
-    msg = "Enter a technology, and the leading company/organization in its development."
+    msg = "Enter a technology, and the leading company/organization in its development. The technology must have a Wikipedia page, and the entered name should exactly match the one on the Wiki page."
     title = "Trendline"
-    fieldNames = ["Technology", "Company/Org"]
+    fieldNames = ["Tech Name", "Tech Leader"]
     fieldValues = []  # we start with blanks for the values
     fieldValues = multenterbox(msg, title, fieldNames)
 

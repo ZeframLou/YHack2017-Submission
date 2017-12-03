@@ -15,13 +15,15 @@ Trendline is a tool that tries to predict future success of current tech by rely
 * urllib
 * BeautifulSoup
 * requests
+* easygui
 
 ## Usage
 Under the root directory, enter the following code into the command line:
 ```
     python NN.py
-    python wrapper.py "Technology Name" "Technology Leader"
+    python wrapper.py
 ```
+Then, enter the required information into the new window.
 **"Technology Name"** is the name of the tech you wish to get info about (e.g. blockchain, iPhone, Windows 10).
 **"Technology Leader"** is the name of the company associated with the technology (e.g. ConsenSys, Apple, Microsoft).
 
@@ -32,7 +34,7 @@ At the heart of it, Trendline uses:
 
 2) Pytrends API to gauge how interest in a topic is developing over time via Google Trends.
 
-3) WikiBot to traverse Wikipedia pages. 
+3) WikiBot to traverse Wikipedia pages.
 
 4) US Patent Office data and Beautiful Soup to parse patent records.
 
