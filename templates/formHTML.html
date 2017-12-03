@@ -1,0 +1,28 @@
+$def with (form, finished)
+
+
+<title>
+  Technology Predictor - YHack 2017
+</title>
+
+<head>
+  <font size="+3">
+  Predicting the Next Big Thing
+  </font>
+  <link rel="styelsheet" type="text/css" href="skeleton.css">
+</head>
+
+<br>
+<body>
+  <p>
+  text will go here describing the app and what it's about
+  </p>
+</body>
+
+
+<form name="main" method="post">
+$if not form.valid: <p class="error">The field was blank. Please enter a technology to search for:</p>
+$:form.render()
+$if finished: <p>The count total was</p>
+<input type="submit" />
+</form>
