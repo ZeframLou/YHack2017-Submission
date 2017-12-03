@@ -1,5 +1,9 @@
 ![Trendline](https://i.imgur.com/qnPNMKp.png)
 
+<hr/>
+
+Trendline is a tool that tries to predict future success of current tech by relying on the powers of machine learning and induction.
+
 ## Prerequisites
 * Python 3.5.4
 * Tensorflow
