@@ -40,6 +40,6 @@ At the heart of it, Trendline uses:
 
 6) TensorFlow for the actual functional approximation.
 
-
+<p></p>
 
 ![Trendline diagram](https://i.imgur.com/1xt5QZg.png)
